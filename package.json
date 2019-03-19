@@ -24,9 +24,11 @@
   },
   "author": "Christian Alfoni",
   "files": [
-    "lib"
+    "lib",
+    "formsy-react.d.ts"
   ],
   "main": "lib/index.js",
+  "types": "./formsy-react.d.ts",
   "scripts": {
     "build": "NODE_ENV=production webpack -p --config webpack.config.js && yarn run prepublish",
     "examples": "webpack-dev-server --config examples/webpack.config.js --content-base examples",
